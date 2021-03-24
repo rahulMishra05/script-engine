@@ -11,6 +11,7 @@ do
 	if [ $REPLY = 1 ];
 then 
 	echo "You selected shell script"
+	./modules/shell.sh
 	break
 
 elif [ $REPLY = 2 ]
