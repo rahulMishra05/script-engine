@@ -27,6 +27,7 @@ then
 elif [ $REPLY = 4 ]
 then
 	echo "You selected Cryptography"
+	./modules/cryptography.sh
 	break
 
 elif [ $REPLY = 5 ]
