@@ -1,4 +1,4 @@
-#/usr/bin/bash
+#!/usr/bin/bash
 
 echo "[+] List of Shell Scripts. Please select any option:"
 
