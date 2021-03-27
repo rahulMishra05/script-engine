@@ -17,6 +17,7 @@ then
 elif [ $REPLY = 2 ]
 then 
 	echo "You selected python script"
+	./modules/python.sh
 	break
 
 elif [ $REPLY = 3 ]
