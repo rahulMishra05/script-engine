@@ -23,7 +23,8 @@ then
 elif [ $REPLY = 3 ]
 then
 	echo "You selected Networking script"
-	break
+	./modules/networking.sh
+ 	break
 
 elif [ $REPLY = 4 ]
 then
