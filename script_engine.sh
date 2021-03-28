@@ -36,6 +36,10 @@ elif [ $REPLY = 5 ]
 then
 	echo "You selected General"
 	break
+elif [ $REPLY = 6 ]
+then 
+	echo "You selected Exploitation"
+	break 
 else
 	echo "Invaild choise, please choose run the script again"
 fi
