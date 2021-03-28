@@ -39,6 +39,7 @@ then
 elif [ $REPLY = 6 ]
 then 
 	echo "You selected Exploitation"
+	./modules/exploitation.sh
 	break 
 else
 	echo "Invaild choise, please choose run the script again"
