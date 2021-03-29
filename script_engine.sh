@@ -35,6 +35,7 @@ then
 elif [ $REPLY = 5 ]
 then
 	echo "You selected General"
+	./modules/general.sh
 	break
 elif [ $REPLY = 6 ]
 then 
