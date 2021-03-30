@@ -9,17 +9,17 @@ do
     if [ $REPLY = 1 ];
 then 
     echo "[+] Executing DNS Lookup script..."
-    bash ../shell-scripts/dns-lookup-host/script.sh
+    ./shell-scripts/dns-lookup-host/script.sh
     break
 elif [ $REPLY = 2 ]
 then
     echo "[+] Executing File encrypter decrypter script..."
-    bash ../shell-scripts/file-encrypter-decrypter/encrypt.sh 
+    ./shell-scripts/file-encrypter-decrypter/encrypt.sh 
     break
 elif [ $REPLY = 3 ]
 then 
     echo "[+] Executing Password generator script..."
-    bash ../shell-scripts/password-generator-shell-script/passwordGenerator.sh
+    ./shell-scripts/password-generator-shell-script/passwordGenerator.sh
     break
 else
     echo "[!] Invalid option selected."
