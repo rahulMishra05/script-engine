@@ -9,12 +9,12 @@ do
 if [ $REPLY = 1 ];
 then 
     echo "[+] Executing FIle encrypter decrypter script..."
-    bash ../cryptography-scripts/file-encrypter-decrypter/encrypt.sh
+    ./cryptography-scripts/file-encrypter-decrypter/encrypt.sh
     break
 elif [ $REPLY = 2 ]
 then 
     echo "[+] Executing Password generator script..."
-    bash ../cryptography-scripts/password-generator-shell-script/passwordGenerator.sh
+    ./cryptography-scripts/password-generator-shell-script/passwordGenerator.sh
     break
 else    
     echo "[!] Invalid option selected."
