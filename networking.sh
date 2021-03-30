@@ -9,17 +9,17 @@ do
     if [ $REPLY = 1 ];
 then 
     echo "[+] Executing ARP spoofing script..."
-    python3 ../networking-scripts/ARP-spoofing/arp_spoofer.py
+    python3 networking-scripts/ARP-spoofing/arp_spoofer.py
     break
 elif [ $REPLY = 2 ]
 then 
     echo "[+] Executing DNS Lookup script..."
-    bash ../networking-scripts/dns-lookup-host/script.sh
+    ./networking-scripts/dns-lookup-host/script.sh
     break
 elif [ $REPLY = 3 ]
 then 
     echo "[+] Executing Port scanner script..."
-    python3 ../networking-scripts/port-scanner/port_scanner.py 
+    python3 networking-scripts/port-scanner/port_scanner.py 
     break
 else
     echo "[!] Invalid option selected."
