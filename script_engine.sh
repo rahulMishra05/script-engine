@@ -11,36 +11,36 @@ do
 	if [ $REPLY = 1 ];
 then 
 	echo "You selected shell script"
-	./modules/shell.sh
+	./shell.sh
 	break
 
 elif [ $REPLY = 2 ]
 then 
 	echo "You selected python script"
-	./modules/python.sh
+	./python.sh
 	break
 
 elif [ $REPLY = 3 ]
 then
 	echo "You selected Networking script"
-	./modules/networking.sh
+	./networking.sh
  	break
 
 elif [ $REPLY = 4 ]
 then
 	echo "You selected Cryptography"
-	./modules/cryptography.sh
+	./cryptography.sh
 	break
 
 elif [ $REPLY = 5 ]
 then
 	echo "You selected General"
-	./modules/general.sh
+	./general.sh
 	break
 elif [ $REPLY = 6 ]
 then 
 	echo "You selected Exploitation"
-	./modules/exploitation.sh
+	./exploitation.sh
 	break 
 else
 	echo "Invaild choise, please choose run the script again"
