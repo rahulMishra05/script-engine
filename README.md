@@ -31,85 +31,44 @@ Suppose you want to execute the script which can execute all the shell scripts, 
 - `general.sh`
 
 ### Directory Tree
+```bash
 .
 ├── cryptography-scripts
 │   ├── file-encrypter-decrypter
-│   │   ├── encrypt.sh
-│   │   └── README.md
 │   ├── password-generator-shell-script
-│   │   ├── passwordGenerator.sh
-│   │   └── README.md
 │   └── README.md
 ├── cryptography.sh
 ├── exploitation-scripts
 │   ├── password-sniffer
-│   │   ├── password_sniffer.py
-│   │   └── README.md
 │   ├── README.md
 │   └── vulnerability-scanner
-│       ├── portScanner.py
-│       ├── __pycache__
-│       │   └── portScanner.cpython-39.pyc
-│       ├── README.md
-│       ├── vulnerability_list.txt.gz
-│       └── vulnerability_scanner.py
 ├── exploitation.sh
 ├── general-scripts
 │   ├── password-generator-shell-script
-│   │   ├── passwordGenerator.sh
-│   │   └── README.md
 │   └── README.md
 ├── general.sh
 ├── networking-scripts
 │   ├── ARP-spoofing
-│   │   ├── arp_spoofer.py
-│   │   └── README.md
 │   ├── dns-lookup-host
-│   │   ├── images
-│   │   │   ├── image1.PNG
-│   │   │   └── image2.PNG
-│   │   ├── README.md
-│   │   └── script.sh
 │   ├── port-scanner
-│   │   ├── port_scanner.py
-│   │   └── README.md
 │   └── README.md
 ├── networking.sh
 ├── python-scripts
 │   ├── ARP-spoofing
-│   │   ├── arp_spoofer.py
-│   │   └── README.md
 │   ├── password-sniffer
-│   │   ├── password_sniffer.py
-│   │   └── README.md
 │   ├── port-scanner
-│   │   ├── port_scanner.py
-│   │   └── README.md
 │   ├── README.md
 │   └── vulnerability-scanner
-│       ├── portScanner.py
-│       ├── README.md
-│       ├── vulnerability_list.txt.gz
-│       └── vulnerability_scanner.py
 ├── python.sh
 ├── README.md
 ├── script_engine.sh
 ├── shell-scripts
 │   ├── dns-lookup-host
-│   │   ├── images
-│   │   │   ├── image1.PNG
-│   │   │   └── image2.PNG
-│   │   ├── README.md
-│   │   └── script.sh
 │   ├── file-encrypter-decrypter
-│   │   ├── encrypt.sh
-│   │   └── README.md
 │   ├── password-generator-shell-script
-│   │   ├── passwordGenerator.sh
-│   │   └── README.md
 │   └── README.md
 └── shell.sh
-
+```
 
 ***Note :-*** **This command line tool is still in development, and fell free to give suggestions.**
 
