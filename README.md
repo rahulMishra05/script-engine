@@ -30,7 +30,7 @@ Suppose you want to execute the script which can execute all the shell scripts, 
 - `exploitation.sh`
 - `general.sh`
 
-### Directory Tree
+### 🧱 Directory Tree
 ```bash
 .
 ├── cryptography-scripts
