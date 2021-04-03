@@ -17,7 +17,7 @@ This command line tool consist of scripts belonging to different ctegories.
 6. Exploitation script
 
 You can also run script that can execute scripts of specific category.\
-Suppose you want to execute the script which can execute all the shell scripts, than you have to use this command. *(Note that you are in base directory of this tool).* 
+Suppose you want to execute the script which can execute all the shell scripts, than you have to use this command. *(Note that you are in root directory of this tool).* 
 ```shell
 ./shell.sh
 ```
