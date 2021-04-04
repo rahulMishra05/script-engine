@@ -3,13 +3,14 @@
 ### 📝 About project
 This is a python script written using python3. If you want to perform ARP spoofing you can use this script.
 
-**What is ARP spoofing ?**
-In computer networking, ARP spoofing, ARP cache poisoning, or ARP posion routing, is a technique by which an attacker sends Address Resolution Protocol message onto a local area network.
+**What is ARP spoofing ?**\
+In computer networking, ARP spoofing, ARP cache poisoning, or ARP posion routing, is a technique by which an attacker sends Address Resolution Protocol message onto a local area network.\
 This technique is commonly used by an attacker while performing *Man in the Middle (MitM) attack* to intercept communication between network devices.
 
 ### 🗂 Libraries used
-1. **Scapy:** Scapy is a powerful Python-based interactive packet manipulation program and library.
-It is able to forge or decode packets of a wide number of protocols, send them on the wire, capture them, store or read them using pcap files, match requests and replies, and much more. It is designed to allow fast packet prototyping by using default values that work.
+1. **Scapy:** Scapy is a powerful Python-based interactive packet manipulation program and library.\
+It is able to forge or decode packets of a wide number of protocols, send them on the wire, capture them, store or read them using pcap files, match requests and replies, and much more. It is designed to allow fast packet prototyping by using default values that work.\
+To install this module use this command `pip3 install scapy`
 2. **Time:** The Python time module provides many ways of representing time in code, such as objects, numbers, and strings. It also provides functionality other than representing time, like waiting during code execution and measuring the efficiency of your code. 
 3. **Sys:**  The sys module in Python provides various functions and variables that are used to manipulate different parts of the Python runtime environment. It allows operating on the interpreter as it provides access to the variables and functions that interact strongly with the interpreter.
 4. **Tremcolor:** This module is used to print coloured ASCII characters on the terminal in output.
