@@ -2,7 +2,7 @@
 
 echo "[+] List of all Python Scripts. Please select any option:"
 
-choise="ARP-Spoofing Password-Sniffer Port-Scanner Vulnerability-Scanner"
+choise="ARP-Spoofing Password-Sniffer Port-Scanner Vulnerability-Scanner SSH-Brute-Force"
 
 select option in $choise;
 do
@@ -26,6 +26,11 @@ then
     echo "[+] Executing Vulnerability scanner script..."
     python3 python-scripts/vulnerability-scanner/vulnerability_scanner.py
     break
+elif [ $REPLY = 5 ]
+then 
+    echo "[+] Executing SSH brute force script..."
+    python3 python-scripts/ssh-brute-force/ssh_brute_force.py
+    break 
 else
     echo "[!] Invalid option selected."
 fi
