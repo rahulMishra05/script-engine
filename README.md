@@ -22,7 +22,7 @@ Suppose you want to execute the script which can execute all the shell scripts, 
 ./shell.sh
 ```
 
-**List of script that will execute scripts of a specific category**
+**List of scripts that will execute scripts of a specific category**
 - `shell.sh`
 - `python.sh`
 - `networking.sh`
