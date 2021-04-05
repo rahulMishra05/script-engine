@@ -2,7 +2,7 @@
 
 echo "[+] List of Cryptographic Scripts. Please select any option: "
 
-choise_crypto="File-Encrypter-Decrypter Password-Generator"
+choise_crypto="File-Encrypter-Decrypter Password-Generator SSH-Brute-Force"
 
 select option in $choise_crypto;
 do
@@ -16,6 +16,11 @@ then
     echo "[+] Executing Password generator script..."
     ./cryptography-scripts/password-generator-shell-script/passwordGenerator.sh
     break
+elif [ $REPLY = 3 ]
+then 
+    echo "[+] Executing SSH brute force script..."
+    python3 cryptography-scripts/ssh-brute-force/ssh_brute_force.py
+    break 
 else    
     echo "[!] Invalid option selected."
 fi
