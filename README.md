@@ -36,11 +36,13 @@ Suppose you want to execute the script which can execute all the shell scripts, 
 ├── cryptography-scripts
 │   ├── file-encrypter-decrypter
 │   ├── password-generator-shell-script
-│   └── README.md
+│   ├── README.md
+│   └── ssh-brute-force
 ├── cryptography.sh
 ├── exploitation-scripts
 │   ├── password-sniffer
 │   ├── README.md
+│   ├── ssh-brute-force
 │   └── vulnerability-scanner
 ├── exploitation.sh
 ├── general-scripts
@@ -58,6 +60,7 @@ Suppose you want to execute the script which can execute all the shell scripts, 
 │   ├── password-sniffer
 │   ├── port-scanner
 │   ├── README.md
+│   ├── ssh-brute-force
 │   └── vulnerability-scanner
 ├── python.sh
 ├── README.md
