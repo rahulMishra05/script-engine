@@ -15,7 +15,7 @@ To install this module use this command `pip3 install scapy`
 3. **Sys:**  The sys module in Python provides various functions and variables that are used to manipulate different parts of the Python runtime environment. It allows operating on the interpreter as it provides access to the variables and functions that interact strongly with the interpreter.
 4. **Tremcolor:** This module is used to print coloured ASCII characters on the terminal in output.
 
-🧱 How to use
+### 🧱 How to use
 1. First you have to clone/download this repository, you can do that by executing this command in terminal.
     ```shell
     git clone https://github.com/rahulMishra05/ARP-spoofing.git
