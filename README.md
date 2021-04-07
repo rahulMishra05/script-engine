@@ -53,7 +53,8 @@ Suppose you want to execute the script which can execute all the shell scripts, 
 │   ├── ARP-spoofing
 │   ├── dns-lookup-host
 │   ├── port-scanner
-│   └── README.md
+│   ├── README.md
+│   └── wifi-scanner
 ├── networking.sh
 ├── python-scripts
 │   ├── ARP-spoofing
@@ -61,7 +62,8 @@ Suppose you want to execute the script which can execute all the shell scripts, 
 │   ├── port-scanner
 │   ├── README.md
 │   ├── ssh-brute-force
-│   └── vulnerability-scanner
+│   ├── vulnerability-scanner
+│   └── wifi-scanner
 ├── python.sh
 ├── README.md
 ├── script_engine.sh
@@ -71,6 +73,7 @@ Suppose you want to execute the script which can execute all the shell scripts, 
 │   ├── password-generator-shell-script
 │   └── README.md
 └── shell.sh
+
 ```
 
 ***Note :-*** **This command line tool is still in development, and fell free to give suggestions.**
