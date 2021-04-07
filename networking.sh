@@ -2,7 +2,7 @@
 
 echo "[+] List of all Networking Scripts. Please select any option:"
 
-choise="ARP-Spoofing DNS-Lookup Port-Scanner"
+choise="ARP-Spoofing DNS-Lookup Port-Scanner WiFI-Scanner"
 
 select option in $choise;
 do
@@ -20,6 +20,13 @@ elif [ $REPLY = 3 ]
 then 
     echo "[+] Executing Port scanner script..."
     python3 networking-scripts/port-scanner/port_scanner.py 
+    break
+elif [ $REPLY = 4 ]
+then 
+    echo "[+] Executing Wifi scanner script..."
+    echo "[+] This script needs sudo privilages!!"
+    echo ""
+    sudo python3 networking-scripts/wifi-scanner/wifi_scanner.py
     break
 else
     echo "[!] Invalid option selected."
