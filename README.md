@@ -40,6 +40,7 @@ Suppose you want to execute the script which can execute all the shell scripts, 
 │   └── ssh-brute-force
 ├── cryptography.sh
 ├── exploitation-scripts
+│   ├── DDoS-Script
 │   ├── password-sniffer
 │   ├── README.md
 │   ├── ssh-brute-force
@@ -51,6 +52,7 @@ Suppose you want to execute the script which can execute all the shell scripts, 
 ├── general.sh
 ├── networking-scripts
 │   ├── ARP-spoofing
+│   ├── DDoS-Script
 │   ├── dns-lookup-host
 │   ├── port-scanner
 │   ├── README.md
@@ -58,6 +60,7 @@ Suppose you want to execute the script which can execute all the shell scripts, 
 ├── networking.sh
 ├── python-scripts
 │   ├── ARP-spoofing
+│   ├── DDoS-Script
 │   ├── password-sniffer
 │   ├── port-scanner
 │   ├── README.md
