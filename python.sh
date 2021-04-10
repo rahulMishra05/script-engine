@@ -2,7 +2,7 @@
 
 echo "[+] List of all Python Scripts. Please select any option:"
 
-choise="ARP-Spoofing Password-Sniffer Port-Scanner Vulnerability-Scanner SSH-Brute-Force WiFi-Scanner"
+choise="ARP-Spoofing Password-Sniffer Port-Scanner Vulnerability-Scanner SSH-Brute-Force WiFi-Scanner DDoS-Script"
 
 select option in $choise;
 do
@@ -37,6 +37,11 @@ then
     echo "[+] This script needs sudo privilages!!"
     echo ""
     sudo python3 python-scripts/wifi-scanner/wifi_scanner.py
+    break
+elif [ $REPLY = 7 ]
+then 
+    echo "[+] Executing DDoS attack script..."
+    python3 python-scripts/DDoS-Script/ddos_script.py
     break
 else
     echo "[!] Invalid option selected."
