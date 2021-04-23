@@ -1,5 +1,13 @@
 #!/usr/bin/bash
 
+cat << "EOF"
+  ___ _        _ _   ___         _      _      
+ / __| |_  ___| | | / __| __ _ _(_)_ __| |_ ___
+ \__ \ ' \/ -_) | | \__ \/ _| '_| | '_ \  _(_-<
+ |___/_||_\___|_|_| |___/\__|_| |_| .__/\__/__/
+                                  |_|                                              
+EOF
+
 echo "[+] List of Shell Scripts. Please select any option:"
 
 choise="DNS-Lookup File-Encrypter-Decrypter Password-Generator"
