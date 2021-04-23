@@ -13,7 +13,7 @@ EOF
 
 echo "list of categories. Please select any option"
 
-choise1="Shell Python Networking Cryptography General"
+choise1="Shell Python Networking Cryptography General Exploitation"
 
 select option1 in $choise1;
 do
