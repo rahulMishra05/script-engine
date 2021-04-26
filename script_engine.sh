@@ -19,36 +19,36 @@ select option1 in $choise1;
 do
 	if [ $REPLY = 1 ];
 then 
-	echo "You selected shell script"
+	echo "You selected shell scripts"
 	./shell.sh
 	break
 
 elif [ $REPLY = 2 ]
 then 
-	echo "You selected python script"
+	echo "You selected python scripts"
 	./python.sh
 	break
 
 elif [ $REPLY = 3 ]
 then
-	echo "You selected Networking script"
+	echo "You selected networking scripts"
 	./networking.sh
  	break
 
 elif [ $REPLY = 4 ]
 then
-	echo "You selected Cryptography"
+	echo "You selected cryptography scripts"
 	./cryptography.sh
 	break
 
 elif [ $REPLY = 5 ]
 then
-	echo "You selected General"
+	echo "You selected general scripts"
 	./general.sh
 	break
 elif [ $REPLY = 6 ]
 then 
-	echo "You selected Exploitation"
+	echo "You selected exploitation scripts"
 	./exploitation.sh
 	break 
 else
