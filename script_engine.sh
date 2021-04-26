@@ -63,6 +63,6 @@ then
 	./exploitation.sh
 	break 
 else
-	echo "[!] Invaild choise, please choose one from the list only."
+	echo -e "${RED}[!] Invaild choise, please choose one from the list only.${NONE}"
 fi
 done
