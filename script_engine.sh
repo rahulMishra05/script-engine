@@ -52,6 +52,6 @@ then
 	./exploitation.sh
 	break 
 else
-	echo "Invaild choise, please choose run the script again"
+	echo "[!] Invaild choise, please choose one from the list only."
 fi
 done
