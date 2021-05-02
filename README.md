@@ -47,6 +47,7 @@ Suppose you want to execute the script which can execute all the shell scripts, 
 │   └── vulnerability-scanner
 ├── exploitation.sh
 ├── general-scripts
+│   ├── file-cut-copy-script
 │   ├── password-generator-shell-script
 │   └── README.md
 ├── general.sh
@@ -72,10 +73,12 @@ Suppose you want to execute the script which can execute all the shell scripts, 
 ├── script_engine.sh
 ├── shell-scripts
 │   ├── dns-lookup-host
+│   ├── file-cut-copy-script
 │   ├── file-encrypter-decrypter
 │   ├── password-generator-shell-script
 │   └── README.md
 └── shell.sh
+
 
 ```
 
