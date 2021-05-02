@@ -11,7 +11,7 @@ EOF
 
 echo "[+] List of General Scripts. Please select any option:"
 
-choise="Password-Generator"
+choise="Password-Generator File-Cut-Copy-Script"
 
 select option in $choise;
 do
@@ -19,6 +19,11 @@ do
 then 
     echo "[+] Executing Password generator script..."
     ./general-scripts/password-generator-shell-script/passwordGenerator.sh
+    break 
+elif [ $REPLY = 2 ]
+then 
+    echo "[+] Executing File cut copy script..."
+    ./general-scripts/file-cut-copy-script/script.sh
     break 
 else
     echo "[!] Invalid option selected."
