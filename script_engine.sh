@@ -13,7 +13,7 @@ EOF
 
 echo "******************  https://script-engine.netlify.app  ******************"
 echo ""
-echo "list of categories. Please select any option"
+echo "List of categories. Please select any option"
 
 
 # Declaring variables for colour the output message
