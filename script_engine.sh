@@ -1,5 +1,15 @@
 #!/usr/bin/bash
 
+
+# Declaring variables for colour the output message
+NONE='\033[00m'
+GREEN='\033[01;32m'
+UNDERLINE='\033[4m'
+YELLOW='\033[01;33m'
+BOLD='\033[1m'
+RED='\033[1;31m'
+
+
 cat << "EOF"
    ______             _               _______             _             
  / _____)           (_)       _     (_______)           (_)            
@@ -17,14 +27,6 @@ echo "******************  Twitter: @r_mishra10  ******************"
 echo ""
 echo "List of categories. Please select any option"
 
-
-# Declaring variables for colour the output message
-NONE='\033[00m'
-GREEN='\033[01;32m'
-UNDERLINE='\033[4m'
-YELLOW='\033[01;33m'
-BOLD='\033[1m'
-RED='\033[1;31m'
 
 choise1="Shell Python Networking Cryptography General Exploitation"
 
