@@ -12,6 +12,8 @@ cat << "EOF"
 EOF
 
 echo "******************  https://script-engine.netlify.app  ******************"
+echo "******************  Developed by: Rahul Mishra  ******************"
+echo "******************  Twitter: @r_mishra10  ******************"
 echo ""
 echo "List of categories. Please select any option"
 
