@@ -21,9 +21,9 @@ cat << "EOF"
 
 EOF
 
-echo "******************  https://script-engine.netlify.app  ******************"
-echo "******************  Developed by: Rahul Mishra  ******************"
-echo "******************  Twitter: @r_mishra10  ******************"
+echo -e "******************  ${GREEN}https://script-engine.netlify.app${NONE}  ******************"
+echo -e "******************  ${RED}Developed by: Rahul Mishra${NONE}  ******************"
+echo -e "******************  ${BLUE}Twitter: @r_mishra10${NONE}  ******************"
 echo ""
 echo "List of categories. Please select any option"
 
