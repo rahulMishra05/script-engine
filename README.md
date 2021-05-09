@@ -12,7 +12,7 @@ This is a command line tool, consist of many scripts related to different catego
 ### 📍 Different categories of scripts
 This command line tool consist of scripts belonging to different ctegories.
 1. Shell script
-
+![Image-2](./assets/image2.png)
 2. Python script
 3. Networking script
 4. Cryptograpy script
