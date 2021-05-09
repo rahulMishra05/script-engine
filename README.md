@@ -20,6 +20,7 @@ This command line tool consist of scripts belonging to different ctegories.
 4. Cryptograpy script
 ![Image-5](./assets/image5.png)
 5. General script
+![Image-6](./assets/image6.png)
 6. Exploitation script
 
 You can also run script that can execute scripts of specific category.\
