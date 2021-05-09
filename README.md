@@ -7,9 +7,12 @@ This is a command line tool, consist of many scripts related to different catego
 ```shell 
 ./script_engine.sh
 ```
+![Image-1](./assets/image1.png)
+
 ### 📍 Different categories of scripts
 This command line tool consist of scripts belonging to different ctegories.
 1. Shell script
+
 2. Python script
 3. Networking script
 4. Cryptograpy script
