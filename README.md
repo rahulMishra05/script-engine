@@ -11,17 +11,17 @@ This is a command line tool, consist of many scripts related to different catego
 
 ### 📍 Different categories of scripts
 This command line tool consist of scripts belonging to different ctegories.
-1. Shell script
+1. **Shell script**
 ![Image-2](./assets/image2.png)
-2. Python script
+2. **Python script**
 ![Image-3](./assets/image3.png)
-3. Networking script
+3. **Networking script**
 ![Image-4](./assets/image4.png)
-4. Cryptograpy script
+4. **Cryptograpy script**
 ![Image-5](./assets/image5.png)
-5. General script
+5. **General script**
 ![Image-6](./assets/image6.png)
-6. Exploitation script
+6. **Exploitation script**
 ![Image-7](./assets/image7.png)
 
 You can also run script that can execute scripts of specific category.\
