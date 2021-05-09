@@ -22,6 +22,7 @@ This command line tool consist of scripts belonging to different ctegories.
 5. General script
 ![Image-6](./assets/image6.png)
 6. Exploitation script
+![Image-7](./assets/image7.png)
 
 You can also run script that can execute scripts of specific category.\
 Suppose you want to execute the script which can execute all the shell scripts, than you have to use this command. *(Note that you are in root directory of this tool).* 
