@@ -10,7 +10,7 @@ Please note we have a code of conduct, please follow it in all your interactions
     - Name of variables should be related to the work they perform.
     - Make sure to use comments, to explain important parts of your code. *Remember that try to avoid use of too many comments, too much of good thing is bad thing !!*
 
-2. Please follow the directory structure of the project, and in case of new tools/scripts place them accordingly to the direcroty structure only.
+2. Please follow the directory structure of the project, and in case of new tools/scripts place them according to the direcroty structure only. *In case of any confusion feel free to contact the owner of the repository.*
 3. Update all the files which needs to gets updated. like `README.md`, script file of different category etc.
 4. All the commit messages should be to the point and also explain everyting related to your commit.
 
