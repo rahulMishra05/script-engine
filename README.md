@@ -7,6 +7,9 @@ This is a command line tool, consist of many scripts related to different catego
 ```shell 
 ./script_engine.sh
 ```
+***Note:*** *If you want to contribute in this project, then please first read the [Contribution Guidelines](https://github.com/rahulMishra05/script-engine/blob/main/contribution.md).\
+I will be happy if you give some times to this project and contribute, to make this tool better and optimized.*
+
 ![Image-1](./assets/image1.png)
 
 ### 📍 Different categories of scripts
