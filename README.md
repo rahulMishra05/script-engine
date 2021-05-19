@@ -44,6 +44,15 @@ Suppose you want to execute the script which can execute all the shell scripts, 
 ### 🧱 Directory Tree
 ```bash
 .
+├── assets
+│   ├── image1.png
+│   ├── image2.png
+│   ├── image3.png
+│   ├── image4.png
+│   ├── image5.png
+│   ├── image6.png
+│   └── image7.png
+├── contribution.md
 ├── cryptography-scripts
 │   ├── file-encrypter-decrypter
 │   ├── password-generator-shell-script
@@ -66,6 +75,7 @@ Suppose you want to execute the script which can execute all the shell scripts, 
 │   ├── ARP-spoofing
 │   ├── DDoS-Script
 │   ├── dns-lookup-host
+│   ├── http-status-checker
 │   ├── port-scanner
 │   ├── README.md
 │   └── wifi-scanner
@@ -86,6 +96,7 @@ Suppose you want to execute the script which can execute all the shell scripts, 
 │   ├── dns-lookup-host
 │   ├── file-cut-copy-script
 │   ├── file-encrypter-decrypter
+│   ├── http-status-checker
 │   ├── password-generator-shell-script
 │   └── README.md
 └── shell.sh
