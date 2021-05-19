@@ -10,7 +10,7 @@ EOF
 
 echo "[+] List of Shell Scripts. Please select any option:"
 
-choise="DNS-Lookup File-Encrypter-Decrypter Password-Generator File-Cut-Copy-Script"
+choise="DNS-Lookup File-Encrypter-Decrypter Password-Generator File-Cut-Copy-Script HTTP(S)-Status-Checker"
 
 select option in $choise;
 do
@@ -34,6 +34,11 @@ then
     echo "[+] Executing File cut copy script..."
     ./shell-scripts/file-cut-copy-script/script.sh
     break 
+elif [ $REPLY = 5 ]
+then 
+    echo "[+] Executing HTTP(S) status checker script..."
+    ./shell-scripts/http-status-checker/http-status-check.sh
+    break
 else
     echo "[!] Invalid option selected."
 fi
