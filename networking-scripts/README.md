@@ -21,6 +21,10 @@ If you want to use a particular script/tool, than go to that tool's folder and i
 │   ├── images
 │   ├── README.md
 │   └── script.sh
+├── http-status-checker
+│   ├── assets
+│   ├── http-status-check.sh
+│   └── README.md
 ├── port-scanner
 │   ├── port_scanner.py
 │   └── README.md
