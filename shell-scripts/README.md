@@ -22,6 +22,10 @@ If you want to use a particular script/tool, than go to that tool's folder and i
 ├── file-encrypter-decrypter
 │   ├── encrypt.sh
 │   └── README.md
+├── http-status-checker
+│   ├── assets
+│   ├── http-status-check.sh
+│   └── README.md
 ├── password-generator-shell-script
 │   ├── passwordGenerator.sh
 │   └── README.md
