@@ -11,7 +11,7 @@ EOF
 
 echo "[+] List of all Networking Scripts. Please select any option:"
 
-choise="ARP-Spoofing DNS-Lookup Port-Scanner WiFI-Scanner DDoS-Script"
+choise="ARP-Spoofing DNS-Lookup Port-Scanner WiFI-Scanner DDoS-Script HTTP(S)_Status-Checker"
 
 select option in $choise;
 do
@@ -42,6 +42,11 @@ then
     echo "[+] Executing DDoS attack script..."
     python3 networking-scripts/DDoS-Script/ddos_script.py
     break
+elif [ $REPLY = 6 ]
+then 
+    echo "[+] Executing HTTP(S) status checker script..."
+    ./networking-scripts/http-status-checker/http-status-check.sh
+    break 
 else
     echo "[!] Invalid option selected."
 fi
