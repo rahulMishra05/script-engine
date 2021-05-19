@@ -10,22 +10,22 @@ This is a command line tool, consist of many scripts related to different catego
 ***Note:*** *If you want to contribute in this project, then please first read the [Contribution Guidelines](https://github.com/rahulMishra05/script-engine/blob/main/contribution.md).\
 I will be happy if you give some times to this project and contribute, to make this tool better and optimized.*
 
-![Image-1](./assets/image1.png)
+![Main-Image](./assets/main-image.png)
 
 ### 📍 Different categories of scripts
 This command line tool consist of scripts belonging to different ctegories.
 1. **Shell script**
-![Image-2](./assets/image2.png)
+![Image-1](./assets/image1.png)
 2. **Python script**
-![Image-3](./assets/image3.png)
+![Image-2](./assets/image2.png)
 3. **Networking script**
-![Image-4](./assets/image4.png)
+![Image-3](./assets/image3.png)
 4. **Cryptograpy script**
-![Image-5](./assets/image5.png)
+![Image-4](./assets/image4.png)
 5. **General script**
-![Image-6](./assets/image6.png)
+![Image-5](./assets/image5.png)
 6. **Exploitation script**
-![Image-7](./assets/image7.png)
+![Image-6](./assets/image6.png)
 
 You can also run script that can execute scripts of specific category.\
 Suppose you want to execute the script which can execute all the shell scripts, than you have to use this command. *(Note that you are in root directory of this tool).* 
