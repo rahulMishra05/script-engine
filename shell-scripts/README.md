@@ -11,12 +11,19 @@ If you want to use a particular script/tool, than go to that tool's folder and i
 
 ```bash
 .
+├── 403-Bypasss
+│   ├── 403_bypass.sh
+│   └── README.md
 ├── dns-lookup-host
 │   ├── images
+│   │   ├── image1.PNG
+│   │   └── image2.PNG
 │   ├── README.md
 │   └── script.sh
 ├── file-cut-copy-script
 │   ├── assets
+│   │   ├── image2.png
+│   │   └── image.png
 │   ├── README.md
 │   └── script.sh
 ├── file-encrypter-decrypter
@@ -24,11 +31,13 @@ If you want to use a particular script/tool, than go to that tool's folder and i
 │   └── README.md
 ├── http-status-checker
 │   ├── assets
+│   │   └── image1.png
 │   ├── http-status-check.sh
 │   └── README.md
 ├── password-generator-shell-script
 │   ├── passwordGenerator.sh
 │   └── README.md
 └── README.md
+
 
 ```
