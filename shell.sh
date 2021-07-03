@@ -10,7 +10,7 @@ EOF
 
 echo "[+] List of Shell Scripts. Please select any option:"
 
-choise="DNS-Lookup File-Encrypter-Decrypter Password-Generator File-Cut-Copy-Script HTTP(S)-Status-Checker"
+choise="DNS-Lookup File-Encrypter-Decrypter Password-Generator File-Cut-Copy-Script HTTP(S)-Status-Checker 403-Bypass"
 
 select option in $choise;
 do
@@ -39,6 +39,14 @@ then
     echo "[+] Executing HTTP(S) status checker script..."
     ./shell-scripts/http-status-checker/http-status-check.sh
     break
+elif [ $REPLY = 6 ]
+then 
+    echo "[+] Executing 403 Bypass script..."
+    echo -e "[*] Please enter domain name: \c"
+    read bypass
+    echo ""
+    ./shell-scripts/403-Bypasss/403_bypass.sh $bypass
+    break 
 else
     echo "[!] Invalid option selected."
 fi
