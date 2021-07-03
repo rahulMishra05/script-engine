@@ -51,7 +51,7 @@ Suppose you want to execute the script which can execute all the shell scripts, 
 │   ├── image4.png
 │   ├── image5.png
 │   ├── image6.png
-│   └── image7.png
+│   └── main-image.png
 ├── contribution.md
 ├── cryptography-scripts
 │   ├── file-encrypter-decrypter
@@ -60,6 +60,7 @@ Suppose you want to execute the script which can execute all the shell scripts, 
 │   └── ssh-brute-force
 ├── cryptography.sh
 ├── exploitation-scripts
+│   ├── 403-Bypasss
 │   ├── DDoS-Script
 │   ├── password-sniffer
 │   ├── README.md
@@ -93,6 +94,7 @@ Suppose you want to execute the script which can execute all the shell scripts, 
 ├── README.md
 ├── script_engine.sh
 ├── shell-scripts
+│   ├── 403-Bypasss
 │   ├── dns-lookup-host
 │   ├── file-cut-copy-script
 │   ├── file-encrypter-decrypter
@@ -100,6 +102,7 @@ Suppose you want to execute the script which can execute all the shell scripts, 
 │   ├── password-generator-shell-script
 │   └── README.md
 └── shell.sh
+
 
 
 ```
