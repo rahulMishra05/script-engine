@@ -106,10 +106,3 @@ Suppose you want to execute the script which can execute all the shell scripts, 
 
 
 ```
-
-***Note :-*** **This command line tool is still in development, and fell free to give suggestions.**
-
-You can share your thoughts with me on [twitter](https://twitter.com/r_mishra10),
-[linkedIn](https://www.linkedin.com/in/rahul-mishra-66210b185),
-[telegram](https://t.me/rahul_mishra10) or
-[instagram](https://www.instagram.com/rahul_mishra10/?hl=en)
